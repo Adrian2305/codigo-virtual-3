@@ -1,0 +1,20 @@
+-Toda etiqueta tiene que tener una apertura y un cierre
+Ejem: 
+<apertura , jorge=valor del atributo, nombre= atributo>
+<div nombre="jorge" border="3"           > Contenido</div>
+
+
+
+
+<input placeholder="click aqui"  /> forzar el cierre con /> para las buenas prácticas de prog
+
+INDENTAR : SANGRIA  ( ALT + SHIFT + F ).
+
+HTML5 OUTLINER: 
+-ESTA PAGINA TE AYUDA A VERIFICAR SU TU PAGINA TIENE UNA BUENA ESTRUCTURA
+-BUENA SEMÁNTICA WEB
+
+ <SECTION> : PARTE PRINCIPAL DEL CONTENIDO.
+ <ASIDE> : DIVIDE UN LADO DE LA APLICACION EJM EL LADO IZQUIERDO.
+
+ EN TODA PÁGINA TIENE QUE HABER SOLO UN H1.
