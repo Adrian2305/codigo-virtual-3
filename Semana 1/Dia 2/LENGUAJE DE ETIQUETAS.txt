@@ -18,3 +18,116 @@ HTML5 OUTLINER:
  <ASIDE> : DIVIDE UN LADO DE LA APLICACION EJM EL LADO IZQUIERDO.
 
  EN TODA PÁGINA TIENE QUE HABER SOLO UN H1.
+
+ LOREM: PARA ESCRIBIR UN PÁRRAFO BASTANTE EXTENSO
+
+ <br/> : Salto de línea o un enter cuando compilas 
+
+ <strong>.......</strong> o <b>....</b>: Sirve para poner de negrita la palabra(No es bloqueante)
+
+  <em>....</em> o <i>...</i>: Palabras cursivas.
+
+ <small>....</small> : Pone las letras mas pequeñas en el texto
+
+  <hr/> : Separa dos reglones con una línea.
+
+  SCHEMA.ORG: PARA INDEXAR EJM: PARA FECHAS( DATATIME="30-06-2020"
+  PARA MEJORAR EL SEO DE NUESTRA PAGINA
+ 
+ GOOGLE TRENDS: PAGINA PARA BUSCAR LAS VISITAS DE CADA PALABRA DEPENDIENDO
+  DE LA FECHA.
+
+ <span>....</span>: No sirve visualmente pero sirve para usar los atributos
+ de schema.
+ EJEM: <span time="PT600H"> 600 horas</span>
+
+ <code>....</code>: Para escribir un pedaso de codigo.
+
+ developer.mozilla.org/en-US/docs/Web/HTML/Element: Etiquetas
+
+ ESCRIBIR a*3 = <a href=""></a> - 3 veces. 
+
+  <a href="./">Cursos</a> = Enlaces de la palabra cursos
+  <a href="./">Buscador</a> = Enlaces de la palabra Buscador
+
+ LISTAS DESORDENADAS: 
+ 
+ <ul>       : LISTAS DESORDENADAS
+ <li>..<li> : LISTAS DESORDENADAS	
+ <ul>       : LISTAS DESORDENADAS
+
+ LISTAS ORDENADAS
+
+ <ol>       : LISTAS ORDENADAS
+ <li>..<li> : listas ordenadas
+ <ol>       : listas ordenadas
+
+  <table> .... </table>
+
+
+
+ EMMET: 
+-a*3 = <a href=""></a> - 3 veces.
+- header>h1 = <header>
+               <h1></h1>
+             </header>
+- header>h1{Pagina de cursos} =  <header>
+                                 <h1>Pagina de cursos</h1>
+                                 </header>
+- section>section*3 =     <section></section>
+                          <section></section>
+                          <section></section>
+
+- li*2>time{20 de Agosto}+{ - Evento Genérico} = <li>
+                                                 <time>20 de Agosto</time>
+                                                 - Evento Genérico      
+                                                 </li>
+                                                 <li>
+                                                 <time>20 de Agosto</time>
+                                                 - Evento Genérico
+                                                 </li>
+
+- table>thead+tbody+tfoot=
+                                 <thead></thead>
+                                 <tbody></tbody>
+                                 <tfoot></tfoot>
+
+- table>(thead>tr>th*5{Cabecera $})+(tbody>tr*3>td*5{contenido $}+tfoot>tr>th*5{pie $})
+
+
+SINO TE SALE LA FÓRMULA APRETAR CTRL + ESPACIO
+
+ATRIBUTOS:
+- <span>....</span>: No sirve visualmente pero sirve para usar los atributos
+ de schema.
+ EJEM: <span time="PT600H"> 600 horas</span>
+- target="_blank" : Para que te diriga a una página nueva con una nueva pestaña
+
+- id= atributo único y también el class en todo el DOM
+
+- text=Sass (PARAMETRO DE URL).
+
+- type="a" start="1"  PARA ENUMERAR CON LETRAS Y STAR ES PARA EMPZAR desde el a 
+
+APUNTES: <article> dentro de otros <articles> no va es por eso que se usa el 
+<div>
+
+- border = "2"  ESTO ES PARA HACER TABLAS
+
+ ARIA PARA LOS CIEGOS. LAZYLOAD PÁGINA
+
+
+DISEÑO: ADOBEXD,FIGMA
+
+
+
+
+TRUCOS DE VSC: 
+PARA ESCRIBIR LO MISMO EN DOS REGLONES AL MISMO TIEMPO: HACES CLIC DONDE QUIERES
+ESCRIBIR EN EL PRIMERO LUEGO MANTIENES APRETADO EL ALT Y HACES CLIC DONDE QUIERES
+ESCRIBIR LO MISMO Y SUELTAS EL ALT. PARA QUITAR APRETAS ESCAPE
+
+
+
+
+ 

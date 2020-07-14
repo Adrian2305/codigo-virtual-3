@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Tablas</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Tablas simples</h2>
+        <!-- BORDER = 2 ES UN ATRIBUTO QUE SE USA PARA PONER TABLAS DEPENDIENDO DEL NUMERO DE BORDER
+        SE VA AMUENTANDO LA TABLA -->
+        <table border="2">
+          <thead>
+            <!-- thead va en la primera fila -->
+            <tr>
+              <!-- SOLO SE PUEDEN HACER 4 td Y th DENTRO DE LOS tr. ESTO SE USA PARA HACER FILAS Y 
+                    COLUMNAS Y LAS COLUMNAS SOLO EN LA PRIMERA FILA SON TH Y NO TD -->
+              <th>#</th>
+              <th>Curso</th>
+              <th>Duración</th>
+              <th>Categoría</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- tbody va en la segunda fila -->
+            <tr>
+              <td>1</td>
+              <td>Programación con <strong>Python</strong></td>
+              <td>300 horas</td>
+              <td>Backend</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Adobe Illustrator</td>
+              <td>30 horas</td>
+              <td>UX/UI</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <!-- tfoot va en la tercera fila -->
+            <tr>
+              <td>-</td>
+              <td>-</td>
+              <td>330 horas</td>
+              <td>-</td>
+            </tr>
+          </tfoot>
+        </table>
+        <table border="5">
+          <!--Abreviado: table>(thead>tr>th*5{Cabecera $})+(tbody>tr*3>td*5{contenido $}+tfoot>tr>td*5{pie $}) -->
+          <thead>
+            <tr>
+              <th>item</th>
+              <th>cantidad</th>
+              <th>descripción</th>
+              <th>precio unitario</th>
+              <th>precio total</th>
+            </tr>
+          </thead>
+          <br />
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>10</td>
+              <td>mouse</td>
+              <td>S/30</td>
+              <td>S/300</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>5</td>
+              <td>C.HDMI</td>
+              <td>S/20</td>
+              <td>S/100</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>1</td>
+              <td>usb 1Tb</td>
+              <td>S/70</td>
+              <td>S/70</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <td>-</td>
+            <td>16</td>
+            <td><TOTAL/td></td>
+            <td>-</td>
+            <td>S/470</td>
+          </tfoot>
+        </table>
+      </section>
+      <section>
+        <h2>Tablas con celdas combinadas</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Cabecera 1</th>
+              <th>Cabecera 2</th>
+              <th>Cabecera 3</th>
+              <th>Cabecera 4</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <!-- EL colspan ES UN ATRIBUTO QUE SIRVE PARA SEPARAR LOS CUADROS DEPENDIENDO DE LOS
+                NÚMEROS QUE AÑADAS -->
+              <td colspan="3">Contenido 1</td>
+              <td colspan="2">Contenido 2</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="3">TOTAL</td>
+              <td>250</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <hr />
+      <section>
+        <h2>Tablas con filas combinadas</h2>
+        <table border="2">
+          <thead>
+            <tr>
+              <!-- EL rowspan SIRVE PARA CUBRIR TODO UNA TABLA HACIA ABAJO DEPENDIENDO DEL NÚMERO QUE
+                LE PONGAS Y CUANTAS TABLAS TIENES -->
+              <td rowspan="3">Fila 1</td>
+              <td>Fila 1</td>
+              <td>Fila 1</td>
+            </tr>
+            <tr>
+              <td>Fila 2</td>
+              <td>Fila 2</td>
+            </tr>
+            <tr>
+              <td>Fila 3</td>
+              <td>Fila 3</td>
+            </tr>
+          </thead>
+        </table>
+        <hr />
+        <table border="3">
+          <thead>
+            <tr>
+              <!-- EL rowspan SIRVE PARA CUBRIR TODO UNA TABLA HACIA ABAJO DEPENDIENDO DEL NÚMERO QUE
+                  LE PONGAS Y CUANTAS TABLAS TIENES -->
+              <td rowspan="3">Fila 1</td>
+              <td>Fila 1</td>
+              <td rowspan="3">Fila 3</td>
+            </tr>
+            <tr>
+              <td>Fila 2</td>
+            </tr>
+            <tr>
+              <td>Fila 3</td>
+            </tr>
+          </thead>
+        </table>
+      </section>
+      <section>
+        <h2>TABLAS</h2>
+        <table border="4">
+          <thead>
+            <tr>
+              <td colspan="3">alfa</td>
+              <td>bravo</td>
+              <td rowspan="2">charlie</td>
+            </tr>
+            <tr>
+              <td>delta</td>
+              <td>echo</td>
+              <td>foxtrot</td>
+              <td>golf</td>
+            </tr>
+            <tr>
+              <td>hotel</td>
+              <td colspan="3" rowspan="2">india</td>
+              <td>juliet</td>
+            </tr>
+            <tr>
+              <td>kilo</td>
+              <td>lima</td>
+            </tr>
+            <tr>
+              <td>mike</td>
+              <td>november</td>
+              <td>oscar</td>
+              <td>papa</td>
+              <td>quebrec</td>
+            </tr>
+          </thead>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>

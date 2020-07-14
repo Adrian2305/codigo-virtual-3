@@ -2,9 +2,12 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Empresa dedicada a la enseñanzade tecnologías web"/>
-    <meta name="keywords" content="cursos online, cursos de desarrollo, cursos gratis, programación desde cero">
-     <title>Document</title>
+     <meta name="description" content="Empresa dedicada a la enseñanzade tecnologías web"/> 
+    <meta
+      name="keywords"
+      content="cursos online, cursos de desarrollo, cursos gratis, programación desde cero"
+    />
+    <title>Document</title>
   </head>
 
   <body>
@@ -13,7 +16,11 @@
     </header>
     <nav>
       <h2>Barra de navegación</h2>
-      Cursos - Buscador - Mi perfil
+      <a href="./cursos.html">Cursos</a>
+      <a href="./buscador.html">Buscador</a>
+      <a href="./perfil.html">Mi perfil</a>
+      <!-- El atributo target="_blank" abre el enlace en un nuevo tab -->
+      <a href="http://www.google.com" target="_blank">Google</a>
     </nav>
     <main>
       <h2>Lista de cursos</h2>
@@ -22,23 +29,25 @@
           <h3>Curso de REACT con NextJS</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-            aliquam veritatis minima quisquam iure explicabo eveniet, fugit <br/>
-            beatae <em>exercitationem</em> omnis! <b>Cumque</b> tempora magnam <small>placeat adipisci</small> ad nostrum 
-            facilis error laudantium.
+            aliquam veritatis minima quisquam iure explicabo eveniet, fugit
+            <br />
+            beatae <em>exercitationem</em> omnis! <b>Cumque</b> tempora magnam
+            <small>placeat adipisci</small> ad nostrum facilis error laudantium.
           </p>
         </article>
-        <hr/>
+        <hr />
         <article>
           <h3>Curso angular Material</h3>
           <time datetime="30-06-2020">Inicio del curso: 30-06-2020</time>
         </article>
 
-        <hr/>
+        <hr />
         <article>
-          <h3>Curso de ReactJS</h3>
+          <h3>Curso de <a href="https://reactjs.org/" target="_blank">ReactJS</a> </h3>
           <p>
-            Ejemplo de código: <br/>
+            Ejemplo de código: <br />
             <code>
+                <br>
               let x = new Promise();
             </code>
           </p>
@@ -52,7 +61,7 @@
         <p>Mas puntuados</p>
       </aside>
     </main>
-    <footer>
+    <footer id="piedepagina">
       <h2>©Codigo - Todos los derechos Reservados 2020</h2>
       <h2>Institucional</h2>
     </footer>
