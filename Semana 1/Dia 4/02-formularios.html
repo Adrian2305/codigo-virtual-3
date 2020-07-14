@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+
+  <body></body>
+  <header>
+    <h1>Formularios</h1>
+  </header>
+  <form>
+    <table>
+      <tbody>
+        <tr>
+            <!-- ESTO SE USA PARA HACER FORMULARIOS, DATOS DE TEXTO. POR LO GENERAL PRIMERO
+            VA EL LABEL Y LUEGO EL INPUT -->
+          <td>
+            <label for="nombrecurso">Nombre del curso:</label></td>
+          <td> <input type="text" id="nombrecurso"/></td>
+        </tr>
+        <tr>
+            <!-- ESTO SE USA PARA HACER FORMULARIOS, DATOS DE NÚMEROS -->
+          <td>
+            <label for="preciocurso">Precio del Curso:</label>
+          </td>
+          <td>
+            <input type="number" id="preciocurso" />
+          </td>
+        </tr>
+        <tr>
+            <!-- ESTO SE USA PARA HACER FORMULARIOS, DATOS DE FECHAS -->
+          <td><label for="fechacurso">Fecha de Inicio</label></td>
+          <td><input type="date" id="fechacurso"></td>
+        </tr>
+        <tr>
+            <!-- ESTO SE USA PARA HACER FORMULARIOS, INFORMACIÓN PARA PODER INGRESAR: PODRÍA SER
+            UNA CUENTA DE UNA PÁGINA,ETC. LOS ID SON ÚNICOS O SEA NO SE PUEDE PONER OTRA PALABRA IGUAL
+        AL QUE LE DAS AL ID -->
+            <td><label for="correodocente">Correo del docente</label></td>
+            <td><input type="email" id="correodocente"></td>
+            <tr>
+                <td><label for="passwordcurso">Contraseña del Curso</label></td>
+                <td><input type="pasword" id="passwordcurso"></td>
+            </tr>
+        </tr>
+        <tr>
+            <!-- ESTO SE USA PARA MARCAR UN HORARIO, SI ES MAÑANA, NOCHE, ETC. -->
+            <td><label for="">Elija el turno</label></td>
+            <td>
+                <span>Mañana</span> <input type="radio" name="turno">
+                <span>Noche</span> <input type="radio" name="turno">
+            </td>
+        </tr>
+
+      </tbody>
+    </table>
+  </form>
+  <section></section>
+</html>
