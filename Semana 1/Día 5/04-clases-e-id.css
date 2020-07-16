@@ -1,0 +1,34 @@
+/* A PESAR DE QUE TODOS TIENEN SECTION Y DEBIÓ PONERSE DE COLOR DARKSLATEBLUE NO SE HIZO ESO YA QUE FORMULARIO PERSONAL
+Y FORMULARIO EXTERNO TIENEN EL ATRIBUTO class. EL background HACE QUE TODO EL CUADRO SE PINTE Y SI SOLO PONES color SOLO
+SE PINTAN LAS PALABRAS. ESTO VA DENTRO DEL <SECTION class >*/
+.formulario-personal{
+    background:coral;
+}
+/* TOOOS LOS ELEMENTOS input QUE ESTÉN DENTRO DE UN ELEMENTO QUE TENGA class .formulario personal se van a pintar */
+.formulario-personal input{
+/* border-radius SON LOS BORDES QUE SE ANCHAN UN POCO EN LA TABLA DE RESPUESTA; */
+    border-radius: 10px;
+}
+.formulario-externo{
+    background:peru;
+}
+section{
+    background: darkslateblue;
+}
+/* SI SOLO DESEAS QUE SE CAMBIE LAS PALABRAS A PESAR DE QUE TENGAS EL FONDO DE OTRO COLOR EL class DEBE IR DENTRO DEL:
+<label class="...">*/
+.letra-morada{
+    color:crimson;
+}
+/* ESTO ES PARA SUBRAYAR LAS PALABRAS */
+.subrayado{
+    text-decoration: underline;
+}
+/* PARA LOS id SE PONE UN # */
+#inputgoogle{
+    /* EL !important HACE QUE ESTE INPUT TENGA MÁS VALOR Y SE QUEDE CON EL COLOR QUE POSEE */
+    background: grey !important;
+}
+#inputgoogle{
+    background: green;
+}

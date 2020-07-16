@@ -1,0 +1,30 @@
+/* :nth-child(posición específica) DE TODOS LOS li EN UN MISMO NIVEL
+SOLAMENTE EL QUE ESTÁ EN LA POSICIÓN NÚMERO (2) DE LOS LI SE VAN A
+PINTAR, EN ESTE CASO DE COLOR AZUL*/
+
+li:nth-child(2){
+    color: red;
+}
+li:first-child{
+    color:blue;
+}
+li:last-child{
+    color:green;
+}
+/* odd solo son para los impares */
+tbody tr:nth-child(odd) {
+background-color: darkgray;    
+}
+/* even solo son para los pares */
+tbody tr:nth-child(even) {
+    background-color: darksalmon;
+}
+thead{
+    background-color:darksalmon;
+}
+input:not([type="text"]) {
+    border-radius: 10px;
+}
+input[type="text"] {
+    background: red;
+}

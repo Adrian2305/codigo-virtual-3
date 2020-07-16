@@ -1,0 +1,20 @@
+/* AQUI ESTOY MENCIONANDO A TODOS LOS label, etc. DE LA PÁGINA */
+label {
+  color: teal;
+}
+/* la coma es como una y en este caso ya que están compartiendo el mismo color es cuestión de abreviar */
+h2, h1 {
+  color: grey;
+}
+ul {
+  color: purple;
+}
+/* ul=padre, li=hijo. DE PADRE A HIJO. ul li quiere decir que SOLO LOS li QUE SE ENCUENTREN DENTRO DE LOS ul SE VAN A PINTAR PARA QUE SEA MÁS 
+ESPECÍFICO AL MOMENTO DE AÑADIR COLOR */
+ul li{
+    color: darkgray;
+}
+/* SE PINTAN TODOS LOS li QUE SEAN HIJOS DE LOS ol */
+ol > li, input, {
+    color: blue;
+}
