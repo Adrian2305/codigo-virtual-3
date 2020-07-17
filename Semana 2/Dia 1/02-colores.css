@@ -1,0 +1,45 @@
+/* COLORES FORMATO HEXADECIMAL #00FF00 = VERDE TOTAL, #FF00FF=VIOLETA,
+#FFFFFF= BLANCO #000000= BLANCO, #000000=NEGRO, #444=PLOMO ESCURO, 
+#dddddd=Casi blanco. color pick full para saber el color hexad.  */
+body {
+  background: #444;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.rojo {
+  color: red;
+}
+.amarillo {
+  color: yellow;
+}
+.naranja {
+  color: orange;
+}
+.azulhex {
+  color: #0000ff;
+}
+.violetahex {
+  color: #ff00ff;
+}
+.grisclarohex {
+  color: #dddddd;
+}
+.rosadorgb {
+    color:rgb(250,190,190);
+}
+.amarillorgb{
+    color:rgb(255, 255, 0);
+}
+.semitransparente{
+    background: rgba(143, 189, 79, 0.5);
+}
+.hsl{
+    background-color: hsl(47,13%,50%)
+}
+.hsl2{
+    background-color: hsl(47,100%,50%)
+}
+.hsl3{
+    background-color: hsl(47,100%,50%)
+}
+/* https://colorhunt.co/ para los colores */

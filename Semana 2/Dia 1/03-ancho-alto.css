@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    /* box-sizing: border-box; sirve para que cuando a un
+    elemento se le coloque padding y/o borde, estos no 
+    afecten en el ancho establecido para dicho elemento */
+    box-sizing: border-box;
+}
+body{
+    background-color: #444444;
+    color: white
+}
+section{
+    width: 500px;
+    background-color:teal;
+}
+.ancho-200{
+    /* width:200px ANCHO DE TODO EL TEXTO */
+    width: 200px;
+    background-color: #222;
+    height: 100px;
+    /* overflow: hidden; OCULTA EL TEXTO QUE REBALSA TODO
+    EL CUADRO */
+    /* overflow: scroll se limita al cuadro pero puedes
+    bajar la ruedita para seguir leyendo */
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.noticias{
+    /* margin:...px; MARGEN A TODOS LOS LADOS DE LA PALABRA margin: 20px;*/
+    margin-bottom: 20px;
+}
+.imagenes{
+    margin-top: 20px;
+    padding: 30px;
+}
+.articulos{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border: 1px solid yellow;
+}
+.articulos p{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #888;
+    margin-top: 10px;
+    /* margen a todos los lados de 10px */
+    /* margin: 10px */
+
+    /* margen superior y inferior de 10px
+    y margen de los costados de 20px */
+    /* margin: 10px 20px */
+
+    /* superior 5px, derecha 10px, inferior 15px
+    izquierda 20px EN SENTIDO DEL RELOJ */
+    /* margin: 5px 10px 15px 20px */
+}

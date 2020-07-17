@@ -1,0 +1,71 @@
+/* IMPORTANDO UNA FUENTE EXTERNA DE DAFONT */
+@font-face{
+    font-family: "harry";
+    src: url(./HARRYP__.TTF)
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch&family=Noto+Sans+KR&display=swap;")
+
+body {
+  /* background: #444 ES PARA PONER TODO EL FONDO DE GOOGLE 
+    EN UN SOLO COLOR, EN ESTE CASO PLOMO */
+  background: #444;
+  /* ACÁ SOLO SE PINTAN LAS PALABRAS QUE ESTÁN DENTRO DE UN 
+    BODY */
+  color: white;
+}
+.fuenteharry{
+    font-family: "harry";
+}
+.titulo {
+    /* ESTO LO SACAS BUSCANDO: GOOGLE FONTS, LE HACES CLICK
+    A LA LETRA QUE DESEAS Y A LA DERECHA COPIAS EL LINK
+    Y LO PEGAS ejm: @import url("....;") */
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+}
+.tituloh2{
+    font-family: "Raleway", sans-serif;
+    font-weight: 100;
+    font-style: italic; 
+}
+.parrafo1 {
+  /* TIPO DE LETRA. PARA ESCOGER EL TIPO DE LETRA BUSCAS EN 
+    GOOGLE: GOOGLE FONTS Y TE VAN A SALIR TODOS LOS TIPOS DE 
+    LETRAS POSIBLES; */
+  font-family: cursive;
+  /* TAMAÑO DE LETRA, LO NORMAL ES 16px EN EL 98% DE LOS 
+    DISPOSITIVOS */
+  font-size: 20px;
+  /* EL GROSOR DE LAS LETRAS */
+  font-weight: 800;
+}
+.parrafo2{
+    /* PARA MANDAR TU TEXTO AL LADO IZQUIERDO COMO SI ESTUVIERAS
+    ESCRIBIENDO CON SANGRÍA FRANCESA */
+    text-align: center;
+    /* GROSOR DE LAS LETRAS */
+    font-weight: 30px;
+}
+.titulo3{
+    font-family: "Raleway"; sans-serif;
+    /* letter-spacing: ES EL ESPACIO ENTRE LETRA Y LETRA 
+    QUE HAY EN UNA PALABRA */
+    letter-spacing: 10px;
+    /* word-spacing: ES EL ESPACIO ENTRE PALABRA Y PALABRA */
+    word-spacing: 20px;
+    /* TAMAÑO DE LETRA */
+    font-size: 35px;
+    text-align: center;
+}
+.subrayado{
+    /* text-decoration: line-through ES PARA TACHAR ALGUNAS 
+    PALABRAS EN ESTE CASO LO QUE ESTÁ DENTRO DE SUBRAYADO */
+    text-decoration: line-through;
+}
+.a{
+    /* text-decoration: none ES PARA QUITAR LO QUE ESTÁ SUB-
+    RAYADO */
+    text-decoration: none;
+    color: white
+}
