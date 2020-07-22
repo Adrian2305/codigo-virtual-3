@@ -1,0 +1,27 @@
+/* LAS GRADIENTES SE DECLARAN COMO IMÁGENES DE FONDO */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: -webkit-linear-gradient(top, #000428, #004e92);
+}
+.section1 {
+  height: 200px;
+  width: 200px;
+  border: 1px solid orangered;
+  background: -webkit-linear-gradient(top right, #397d5b, #c0fdcc);
+  /* polyfills para que salga en chrome, mozilla,etc */
+}
+.section2 {
+    height: 200px;
+    width: 400px;
+    /* GRADIENTES COMO SI FUERAN MANCHAS EN ESTE CASO CIRCULAR */
+    background: -webkit-radial-gradient(center, circle, #297d5b, #c0fddf);
+}
