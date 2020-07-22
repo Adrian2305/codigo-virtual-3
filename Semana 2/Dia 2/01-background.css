@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.section1 {
+  background-color: #e5dafa;
+  height: 200px;
+}
+.section2 {
+  height: 500px;
+  background-color: #d8f5db;
+  /* PARA COLOCAR IMAGEN 100% ANCHO */
+  background-image: url("./frutas.jpg");
+  /* POR DEFECTO CUANDO PONES UNA IMAGEN SE REPITE
+  2 VECES PERO PARA QUE NO SE REPITA SE USA EL:
+  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
+  /* background-size: cover; PARA QUE LA IMAGEN 
+  ESTÉ 100% DEL ANCHO*/
+  background-size: cover;
+  /* PARA PONER AL CENTRO LA IMAGEN background-position: center;*/
+  /* background-position: center bottom; */
+  background-attachment: fixed;
+}
+.contenedor {
+  background-color: rgba(0,0,0,0.8);
+  font-family: Arial, Helvetica, sans-serif;
+  height: 500px;
+  /* LA FUNCIÓN CALC TE AYUDA A HACER CÁLCULOS MATEMÁTICOS CON UNI
+  DADES DE MEDIDA DISTIONTOS: px, rem, %. */
+  padding-top: calc(250px - 0.5rem);
+}
+.contenedor h1{
+  text-align: center;
+  word-spacing: 20px;
+  letter-spacing: 8px;
+  color:white
+}
+.section3{
+  height: 1000px;
+  background-image: url("./fondo.jpg");
+  /* background-repeat: no-repeat;  */
+}

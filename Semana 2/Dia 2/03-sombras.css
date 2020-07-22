@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: ;
+}
+.section1 {
+  /* ESTO PUEDE SERVIR PARA HACER UN FORMULARIO */
+  width: 200px;
+  height: 200px;
+
+  box-shadow: #888 0px 0px 20px;
+  border-radius: 8px;
+  margin: 50px auto 0px auto;
+}
+h2 {
+  /* background-color: teal; */
+  text-align: center;
+  padding: 20px 0;
+  /* margin: 0 auto; */
+  text-shadow: #333 2px 2px 4px;
+  /* EJEMPLOS DE ESTILOS DE CSS Y JAVASCRIPT
+  https://tympanus.net/codrops/?s=button&search-type=posts 
+  PARA LOS DISEÑOS https://dribbble.com/*/
+  
+
+}
+span {
+    background-color: tomato;
+}
