@@ -1,0 +1,83 @@
+*{
+margin:0;
+box sizing: border-box;
+padding:0;
+}
+body{
+    background-color: #444;
+    color: white;
+
+    /* Cuando => flex-direction:row */
+    /* Eje principal => horizontal (Eje x) */
+    /* Eje secundario => vertical (Eje y */
+
+
+    /* Cuando => flex.direction:column */
+    /* Eje principal => vertical (Eje Y) */
+    /* Eje secundario => horizontal (Eje X) */
+
+
+/* ¿Como se alínean los elementos en el eje principal? */
+    /* justify*content */
+    /* ¿Como se alínean los elementos en el eje secundario? */
+    /* align-items */
+}
+.main{
+    /* display: flex; PARA PONER LOS ELEMENTOS EN EL MISMO REGLÓN */
+    display: flex;
+    height: 500px;
+    border: 1px solid white;
+    /* justify-content: flex-end; PARA ENVIAR LOS ELEMENTOS 
+    PEGADOS AL FINAL */
+    /* justify-content: flex-start; PARA ENVIAR LOS ELEMENTOS
+    PEGADOS AL COMIENZO */
+    /* justify-content: center; PARA ENVIAR LOS ELEMENTOS 
+    PEGADOS AL CENTRO */
+    /* justify-content: space-between; PARA ENVIAR LOS ELEMENTOS
+    UNO AL COMIENZO OTRO AL MEDIO Y EL OTRO AL FINAL */
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.section1{
+    background-color: tomato;
+    width: 200px;
+    height: 200px;
+}
+.section2{
+    background-color: rebeccapurple;
+    width: 200px;
+    height: 200px;
+}
+.section3{
+    background-color: pink;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bolita{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkred;
+}
+.main2{
+    display: flex;
+    height: 300px;
+    border: 1px solid white;
+    /*justify-content: center;
+     align-items: center; PARA PONERLO EN EL CENTRO DEL EJE X
+     Y EJE Y */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+
+}
+.section4{
+    width:100px;
+    height:100px;
+    background-color: #bbb;
+    
+}
