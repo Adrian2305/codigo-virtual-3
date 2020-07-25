@@ -1,0 +1,33 @@
+*{
+margin:0;
+box sizing: border-box;
+padding:0;
+}
+body{
+    background-color: crimson;
+}
+/* ¿Cómo se lee? */
+/* Para todas las pantallas de dispositivos que además
+tengan un máximo de ancho de 1024px 
+Y SIEMPRE VA DE MAYOR A MENOR. Es decir, que primero
+van los 1024px luego puede ir uno menor a 1024 */
+@media screen and (max-width: 1024px){
+    body{
+        background-color: darkgray;
+    }
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: darkslateblue;
+    }
+}
+@media screen and (max-width: 480px){
+    body{
+        background-color: darkturquoise;
+    }
+}
+@media screen and (max-width: 320px){
+    body{
+        background-color: dimgray;
+    }
+}

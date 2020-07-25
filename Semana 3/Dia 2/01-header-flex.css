@@ -1,0 +1,56 @@
+*{
+margin:0;
+box sizing: border-box;
+padding:0;
+}
+:root{
+    --color-primario: #e84d3b;
+}
+.header{
+    height:60px;
+    background: -webkit-linear-gradient(left, var(--color-primario), #ee9389);
+    display: flex;
+    box-shadow: #888888;
+}
+.header__contenedor{
+    display: flex;
+    flex: 1;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__logo{
+    width: 200px;
+    background-color: blue;
+}
+.header__navegacion{
+    flex: 1;
+    display: flex;
+}
+.header__lista{
+    flex: 1;
+    /* list-style: none; PARA QUITAR LOS PUNTOS QUE LLEVA INICIO, CURSO, PROYECTOS, CONTACTO */
+    list-style: none;
+    /* display: flex; PARA QUE SE PONGA UN ELEMENTO AL COSTADO DEL OTRO */
+    display: flex;
+}
+.header__item{
+    flex: 1;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; PARA MANDAR AL CENTRO LOS ELEMENTOS */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    /* transform: all 0.2s ease-in; SIRVE PARA QUE DESPUÉS DE 0.2 segundos pase lo que está en el .header__item:hover */
+    transform: all 0.2s ease-in;
+}
+.header__item:hover{
+    background-color: var(--color-primario);
+    flex: 1.4;
+}
+.header__link{
+    /* text-decoration: none; PARA QUE NO ESTÉ SUBRAYADO LOS ELEMENTOS(inicio , curso, proyecto, contacto) */
+    text-decoration: none;
+    color: white;
+}
