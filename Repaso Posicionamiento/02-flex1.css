@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.padre {
+  background-color: darkorange;
+  height: 500px;
+  display: flex;
+  /* flex-direction: row; => Propiedad por defecto */
+  /* Cuando está en row; No debe estar ocupado el 100%
+    de la altura del padre.
+    Alineación horizontal: justify-content: ;
+    Alineación vertical: align-items: ; */
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.hijo1 {
+  background-color: dodgerblue;
+  width: 100px;
+  height: 200px;
+}
+.hijo2 {
+  background-color: lawngreen;
+  width: 100px;
+  height: 200px;
+}
+.padre2 {
+  background-color: peru;
+  height: 500px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+}
+.hijo3 {
+  background-color: purple;
+  width: 50%;
+  height: 250px;
+}
+.hijo4 {
+  background-color: seagreen;
+  width: 50%;
+  height: 250px;
+}
+.padre3 {
+  height: 500px;
+  width: 80%;
+  display: flex;
+  background-color: springgreen;
+  /* Propiedad por defecto flex-wrap: no-wrap; 
+  Si los hijos exceden en el ancho del padre no harán un salto de línea*/
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+  /* align-items: center; */
+  /* align-content: center; Es usado para juntar los elementos, tiene que
+  estar en flex-wrap: wrap;  */
+  padding: 20px;
+  /* align-content: center; */
+}
+.padre3 > article {
+    /* min-width: 300px; */
+    border: 3px solid green;
+    padding: 10px;
+}
+.hijo5 {
+  background-color: yellowgreen;
+  width: 50%;
+}
+.hijo6 {
+  background-color: teal;
+  width: 50%;
+}
+.hijo7 {
+  background-color: yellowgreen;
+  width: 50%;
+}
+.hijo8 {
+    background-color: teal; 
+    width: 50%;
+}   
+.hijo9 {
+  background-color: yellowgreen;
+  width: 50%;
+}
+.hijo10 {
+    background-color: teal; 
+    width: 50%;
+}

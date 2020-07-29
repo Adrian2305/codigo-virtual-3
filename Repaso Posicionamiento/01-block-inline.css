@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.padre{
+    background-color: darkorange;
+    height: 500px;
+}
+.hijo1{
+    background-color: dodgerblue;
+    display: inline-block;
+    width: 100px;
+}
+.hijo2{
+    background-color: lawngreen;
+    display: inline-block;
+    width: 100px;
+}
+/* LOS ELEMENTOS INLINE-BLOCK PROVOCAN UN ESPACIO
+ENTRE ELEMENTO Y ELEMENTO */

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+header{
+    height: 60px;
+    background: -webkit-linear-gradient(top, #492896, #735fa0);
+    display: flex;
+}
+.header__logo{
+    background-color: aqua;
+    width: 200px;
+}
+.header__nav{
+    background-color: blueviolet;
+    flex: 1;
+}
+.header__buscador{
+    width: 250px;
+    background-color: orangered;
+}
