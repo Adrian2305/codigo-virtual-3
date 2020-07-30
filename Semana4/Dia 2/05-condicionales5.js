@@ -19,7 +19,7 @@ if(nro1>nro2) {
 //nro2 es mayor que el nro1
 if(nro2 > nro3){
     console.log(`El numeor mayor es el nro2: ${nro2}`);  
-  } var console: Console
+//   } var console: Console
     console.log(`El numero mayor es el nro3: ${nro3}`); 
   }
  }
