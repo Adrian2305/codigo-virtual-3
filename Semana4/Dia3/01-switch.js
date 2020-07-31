@@ -1,6 +1,4 @@
 //Switch
 
-console.log(
-
-);
+console.log();
 let rpta = prompt("Ingresar Opcion;");

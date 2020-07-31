@@ -1,11 +1,14 @@
 // Realizar l amultiplicación de 2 números
-//Sin el símbolo de * 
+//Sin el símbolo de *
 
-let nro1= +prompt("Ingrese el primer número")
-let nro2= +prompt("Ingrese el segundo número")
-let contador= 1;
+let nro1 = +prompt("Ingrese el primer número");
+let nro2 = +prompt("Ingrese el segundo número");
+let contador = 1;
 
-while () {
-    console.log();
+while (condition) {
+    
+}
+
+while (nro1) {
     
 }
