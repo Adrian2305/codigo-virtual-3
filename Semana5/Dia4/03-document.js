@@ -27,3 +27,27 @@ console.log(seccionesArreglo);
 seccionesArreglo.forEach((seccion) => {
   console.log(seccion);
 });
+
+/**
+ * document.querySelector("selector_de_un_elemento")
+ * Retorna un elemento del DOM dado un selector al estilo CSS
+ * Ejm: .rojo => un elemento con la clase "rojo"
+ * OJO: querySelector solo devuelve 1 elemento
+ */
+
+let footerApp = document.querySelector("#footerApp");
+console.log(footerApp);
+
+/**
+ * document.querySelectorAll("selector_de_uno_o_mas_elementos");
+ * Retorna una coleccion de elementos del DOM dado un selector como en CSS
+ */
+let divsFooter = document.querySelectorAll(".footerApp_seccion");
+console.log(divsFooter);
+
+divsFooter.forEach((div) => {
+  console.log(div);
+});
+
+let navegacion = document.querySelector("#navegacion");
+console.log(navegacion);
