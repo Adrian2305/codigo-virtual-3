@@ -21,12 +21,37 @@
         width: 100%;
       }
       .contenedor > table {
-          width: 100%;
+        width: 100%;
+      }
+      .menu {
+        list-style: none;
+        /* position: absolute; PARA QUE RESPETE LA POSICIÓN QUE YO QUIERA */
+        position: absolute;
+        border-radius: 12px;
+        overflow: hidden;
+        left: 0;
+        top: 0;
+        box-shadow: 0px 0px 12px #888;
+      }
+      .menu__item {
+        background-color: #444;
+        color: white;
+        padding: 10px;
+        cursor: pointer;
+      }
+      .menu__item:hover {
+        background-color: #666;
+      }
+      ul {
+        padding: 0;
       }
     </style>
   </head>
 
   <body>
+    <h2>Preferencias</h2>
+    <input type="color" id="inputColor" />
+
     <form id="formulario">
       <p>
         <label for="">Código de Producto</label>
@@ -51,6 +76,11 @@
         <tbody id="tbody"></tbody>
       </table>
     </section>
+    <ul class="menu" id="menu" hidden>
+      <li class="menu__item">Crear Archivo</li>
+      <li class="menu__item">Crear Archivo</li>
+      <li class="menu__item">Imprimir Página</li>
+    </ul>
 
     <script src="./02-localstorage.js"></script>
   </body>

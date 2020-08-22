@@ -1,55 +1,55 @@
-*{
-margin:0;
-box sizing: border-box;
-padding:0;
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
 }
-body{
-    background-color: #444;
-    color: white;
+body {
+  background-color: #444;
+  color: white;
 }
-.section1{
-    background-color: coral;
-    /* flex: ; ES COMO EL WIDTH, ES EL ANCHO EN PORCENTAJE */
-    flex: 1;
-    height: 50px;
+.section1 {
+  background-color: coral;
+  /* flex: ; ES COMO EL WIDTH, ES EL ANCHO EN PORCENTAJE */
+  flex: 1;
+  height: 50px;
 }
-.section2{
-    background-color: cornflowerblue;
-    flex: 4;
-    height: 250px;
-} 
-.section3{
-    background-color: crimson;
-    height: 100px;
-    flex: 1;
+.section2 {
+  background-color: cornflowerblue;
+  flex: 4;
+  height: 250px;
 }
-main{
-    /* display: flex SIRVE PARA PONER UN ELEMENTO AL COSTADO DEL OTRO
+.section3 {
+  background-color: crimson;
+  height: 100px;
+  flex: 1;
+}
+main {
+  /* display: flex SIRVE PARA PONER UN ELEMENTO AL COSTADO DEL OTRO
      */
-    display: flex;
-    border: 1px solid white;
-    height: 500px;
-    /* flex-direction: row; SIRVE PARA PONER TODOS LOS ELEMENTOS EN UNA
+  display: flex;
+  border: 1px solid white;
+  height: 500px;
+  /* flex-direction: row; SIRVE PARA PONER TODOS LOS ELEMENTOS EN UNA
     LÍNEA */
 }
-.main-column{
-    display: flex;
-    border: 1 solid white;
-    height: 500px;
-    /* flex-direction: column; SIRVE PARA PONER UNO DEBAJO DEL OTRO
+.main-column {
+  display: flex;
+  border: 1 solid white;
+  height: 500px;
+  /* flex-direction: column; SIRVE PARA PONER UNO DEBAJO DEL OTRO
     COMO SI ESTUVIESEN EN COLUMNAS */
-    flex-direction: column;
+  flex-direction: column;
 }
-.section4{
-    flex: 1;
-    background-color: crimson;
-    width: 200px;
+.section4 {
+  flex: 1;
+  background-color: crimson;
+  width: 200px;
 }
-.section5{
-    flex: 4;
-    background-color: darkorange;
+.section5 {
+  flex: 4;
+  background-color: darkorange;
 }
-.section6{
-    background-color: dodgerblue;
-    flex: 1;
+.section6 {
+  background-color: dodgerblue;
+  flex: 1;
 }
